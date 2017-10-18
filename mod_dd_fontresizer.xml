@@ -11,7 +11,6 @@
 
     <files>
         <filename module="mod_dd_fontresizer">mod_dd_fontresizer.php</filename>
-        <filename>helper.php</filename>
         <folder>tmpl</folder>
     </files>
     <config>
