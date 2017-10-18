@@ -13,6 +13,9 @@ defined('_JEXEC') or die;
 <div class="mod_dd_fontresizer">
     <ul>
         <li>
+	        <?php echo JText::_('MOD_DD_FONTRESIZER_FONTSIZE'); ?>
+        </li>
+        <li>
             <a href="javascript:void(0)" id="resetFont" data-selector="<?php echo $jqueryselector; ?>"
                title="<?php echo JText::_('MOD_DD_FONTRESIZER_RESET'); ?>">
                 <span class="icon-zoom-out"></span>
