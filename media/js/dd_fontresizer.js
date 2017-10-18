@@ -18,7 +18,7 @@
 
             for(var counter = 0; counter < allElems.length; counter++)
             {
-                $(allElems[counter]).css('font-size', 'initial');
+                $(allElems[counter]).css({'font-size':'initial','line-height':'initial'});
             }
 
             return false;
@@ -37,7 +37,7 @@
                 var currentFontSizeNum = parseFloat(currentFontSize, 10);
                 var newFontSize = currentFontSizeNum * 1.2;
 
-                $(allElems[counter]).css('font-size', newFontSize + '%');
+                $(allElems[counter]).css({'font-size':newFontSize + 'px','line-height' :newFontSize + 2 + 'px'});
             }
 
             return false;
