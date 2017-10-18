@@ -25,18 +25,6 @@
                         description="MOD_DD_FONTRESIZER_JQUERY_SELECTOR_DESC"
                 />
 
-                <field
-                        name="loadbootstrapcss"
-                        type="radio"
-                        label="MOD_DD_FONTRESIZER_LOADBOOTSTRAPCSS_LABEL"
-                        description="MOD_DD_FONTRESIZER_LOADBOOTSTRAPCSS_DESC"
-                        class="btn-group btn-group-yesno"
-                        default="0"
-                >
-                    <option value="1">JYES</option>
-                    <option value="0">JNO</option>
-                </field>
-
             </fieldset>
         </fields>
     </config>
