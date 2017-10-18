@@ -6,6 +6,4 @@
  * @license    http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  **/
 
-.dd_mod_fontresizer {
-
-}
+.dd_mod_fontresizer ul { padding-left: 0; margin-left: 0 } .dd_mod_fontresizer li { display: inline }
