@@ -1,0 +1,56 @@
+<extension type="module" version="3.8.0" method="upgrade">
+    <name>mod_dd_fontresizer</name>
+    <creationDate>18.10.2017</creationDate>
+    <author>HR IT-Solutions Florian Häusler</author>
+    <authorEmail>info@hr-it-solutions.com</authorEmail>
+    <authorUrl>https://www.hr-it-solutions.com</authorUrl>
+    <copyright>Copyright (C) 2017 - 2017 Didldu e.K. | HR IT-Solutions</copyright>
+    <license>GNU/GPLv2 only</license>
+    <version>1.0.0.0</version>
+    <description>MOD_DD_FONTRESIZER_XML_DESCRIPTION</description>
+
+    <files>
+        <filename module="mod_dd_fontresizer">mod_dd_fontresizer.php</filename>
+        <filename>helper.php</filename>
+        <folder>tmpl</folder>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+
+                <field
+                        name="jqueryselector"
+                        type="text"
+                        default="p"
+                        label="MOD_DD_FONTRESIZER_JQUERY_SELECTOR_LABEL"
+                        description="MOD_DD_FONTRESIZER_JQUERY_SELECTOR_DESC"
+                />
+
+                <field
+                        name="loadbootstrapcss"
+                        type="radio"
+                        label="MOD_DD_FONTRESIZER_LOADBOOTSTRAPCSS_LABEL"
+                        description="MOD_DD_FONTRESIZER_LOADBOOTSTRAPCSS_DESC"
+                        class="btn-group btn-group-yesno"
+                        default="0"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+            </fieldset>
+        </fields>
+    </config>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.mod_dd_fontresizer.ini</language>
+        <language tag="en-GB">en-GB/en-GB.mod_dd_fontresizer.sys.ini</language>
+        <language tag="de-DE">de-DE/de-DE.mod_dd_fontresizer.ini</language>
+        <language tag="de-DE">de-DE/de-DE.mod_dd_fontresizer.sys.ini</language>
+    </languages>
+
+    <media destination="mod_dd_fontresizer" folder="media">
+        <folder>css</folder>
+        <folder>js</folder>
+    </media>
+</extension>
